@@ -1,13 +1,29 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    background-color: goldenrod;
+    display: flex;
+    justify-content: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.status {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-weight: bold;
+}
+
+.square {
+    height: 150px;
+    width: 150px;
+    vertical-align: top;
+    border-radius: 0;
+    border-spacing: 0;
+    font-size: 5em;
+    font-weight: bold;
+    margin: -1px;
+    
+}
+.square:active {
+    border-style: outset;
 }
